@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="eng">
+<style>
+		body{background-color:seagreen;color:white}
+</style>
+<head>
+	<title> Birds </title>
+</head>
+<body>
+	<h1> Birds </h1>
+		<p> Click on a choice below to visit all the information</p>
+		<ul>
+			<li><a href=Birds.html>Birds</a></li>
+			<li><a href=Index.html>Index</a></li>
+			<li><a href=Research.html>Research</a></li>
+			<li><a href=About.html>About</a></li>
+			<li><a href=Contact_us.html>Contact Us</a></li>
+			<li><a href=Quiz.html>Quiz</a></li>
+		</ul>
+	<hr />
+	<br />
+	<br />
+	<footer> Any research used in this website has been copied without rights so sue me please. </footer>
+</body>
+</html>
