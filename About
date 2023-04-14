@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<style>
+		body{background-color:seagreen;color:white}
+</style>
+<head>
+	<title> About </title>
+</head>
+<body>
+	<h1> About </h1>
+	<p> Click on a choice below to visit all the information</p>
+		<ul>
+			<li><a href=Birds.html>Birds</a></li>
+			<li><a href=Index.html>Index</a></li>
+			<li><a href=Research.html>Research</a></li>
+			<li><a href=About.html>About</a></li>
+			<li><a href=Contact_us.html>Contact Us</a></li>
+			<li><a href=Quiz.html>Quiz</a></li>
+		</ul>
+		<br />
+		<hr />
+		<br />
+	<p> To learn more about us, please log in. </p>
+	<p> username:
+		<input type="text" name="name" maxlength="30">
+	</p>
+	<p> password:
+		<input type="password" name="userpassword" maxlength="20">
+	</p>
+
+</body>
+</html>
