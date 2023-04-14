@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<style>
+		body{background-color:seagreen;color:white}
+</style>
+<head>
+	<title> Quiz </title>
+</head>
+<body>
+
+	<h1> Quiz </h1>
+	<p> Click on a choice below to visit all the information</p>
+		<ul>
+			<li><a href=Birds.html>Birds</a></li>
+			<li><a href=Index.html>Index</a></li>
+			<li><a href=Research.html>Research</a></li>
+			<li><a href=About.html>About</a></li>
+			<li><a href=Contact_us.html>Contact Us</a></li>
+			<li><a href=Quiz.html>Quiz</a></li>
+		</ul>
+		<br />
+		<hr />
+		<br />
+
+<fieldset>
+	<legend> Choice </legend>
+<!-- Radio Button -->
+		<form>
+			<p> Please select your favorite bird:
+			<br />
+				<input type="radio" name="favorite bird" value="Parakeets" /> Parakeets
+				<input type="radio" name="favorite bird" value="Cockatiel" /> Cockatiel
+				<input type="radio" name="favorite bird" value="Budgies" /> Budgies
+				<input type="radio" name="favorite bird" value="Parrots" /> Parrots
+				<input type="radio" name="favorite bird" value="Finch" /> Finch
+			</p>
+		</form>
+
+<!-- Checkbox -->
+		<form>
+			<p> Please select a bird you have seen:
+				<br />
+				<input type="Checkbox" name="bird seen" value="Parakeets" /> Parakeets
+				<input type="Checkbox" name="bird seen" value="Cockatiel" /> Cockatiel
+				<input type="Checkbox" name="bird seen" value="Budgies" /> Budgies
+				<input type="Checkbox" name="bird seen" value="Parrots" /> Parrots
+				<input type="Checkbox" name="bird seen" value="Finch" /> Finch
+				<input type="Checkbox" name="bird seen" value="I have not seen any" /> I have not seen any
+			</p>
+		</form>
+
+<!-- Drop down list -->
+		<form>
+			<p> Please select what type of food would you give to a bird:
+				<br />
+				<select name="food">
+					<option value="seeds">seeds</option>
+					<option value="millet">millet</option>
+					<option value="eh, who cares about the birds anyway"> eh, who cares about the dumb birds anyway</option>
+				</select>
+			</p>
+		</form>
+
+
+<!-- Drop down list with multiple select box -->
+		<form>
+			<p> Please select what birds you would find in the neighborhood:
+				<br />
+				<select name="size" size="3" multiple="multiple">
+					<option value="blue jay"> blue jay </option>
+					<option value="pigeons" selected="selected">pigeons </option>
+					<option value="Rainbow Lorikeet"> Rainbow Lorikeet </option>
+				</select>
+			</p>
+		</form>
+
+	<form>
+</fieldset>
+
+<fieldset>
+
+<!-- Upload your file to an input box -->
+	<legend> Contact </legend>
+		<p> Upload a picture of a common bird in the png format: </p> 
+		<br />
+		<input type="file" name="userphoto" />  
+		<input type="submit" value="upload" />  
+		<br />
+	</form>
+
+
+<!-- Example of name in label input -->
+	<form> 
+		<p> Your Name </p>
+		<label for="firstname">First name: </label> 
+		<br /> 
+		<input type="text" name="First Name" id="firstname" value="John" /> 
+		<br />
+		<label for="lastname">Last name: </label> 
+		<br /> 
+		<input type="text" name="Last Name" id="lastname" value="Doe" /> 
+		<br />
+		<input type="submit" name="Name" value="Submit">
+	</form>
+
+<!-- Example of date input -->
+
+	<form>
+		<label for="get"> When did you get your birds, if not, when are you getting them, or not if your are not getting them. </label>
+		<br />
+		<input type="date" name="get" id="get" />
+		<input type="submit" name="Submit" value="Submit">
+		<br />
+	</form>
+<!-- Example of url type -->
+
+	<form>
+		<label for="website"> Enter your website </label>
+		<br />
+		<input type="url" name="website" id="website" />
+		<input type="submit" value="Submit">
+		<br />
+	</form>
+
+<!-- Expample of email type  -->
+	<form>
+		<label for=email> Subscribe to our email list: </label>
+		<br />
+		<input type="email" name="email" id="email" />
+		<input type="submit" value="Subscribe" />
+		<br />
+	</form>
+
+<!-- This is an example of a search input -->
+	<form>
+		<label for="search"> Search </label>
+		<br />
+		<input type="search" name="search" id="search"/>
+		<input type="submit" value="Search">
+		<br />
+	</form>
+
+</fieldset>
+
+
+</body>
+</html>
